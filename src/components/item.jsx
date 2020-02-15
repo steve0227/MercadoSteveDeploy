@@ -1,6 +1,7 @@
 import React from "react";
 
 const Item = ({item}) => {
+  //componente item para las card
   return (
     <div className="card text-center" style={{width : '18rem'}}>
       <div className="container">
@@ -17,7 +18,7 @@ const Item = ({item}) => {
         <li className="list-group-item">Unidades disponibles: {item.available_quantity} </li>
         <li className="list-group-item">Id vendedor: {item.seller.id}</li>
       </ul>
-      
+    
     </div>
   );
 };
